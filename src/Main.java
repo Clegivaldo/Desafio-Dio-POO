@@ -67,6 +67,5 @@ public class Main {
         System.out.println("Conteúdos disponíveis Júlia: " + devJulia.getConteudosInscritos());
         System.out.println("Conteúdos concluídos Júlia: " + devJulia.getConteudosConcluidos());
         System.out.println("XP:" + devJulia.calcularxp());
-
     }
 }
