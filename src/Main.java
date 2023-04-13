@@ -41,12 +41,32 @@ public class Main {
         Dev devClegivaldo = new Dev();
         devClegivaldo.setNome("Clegivaldo");
         devClegivaldo.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos disponíveis:" + devClegivaldo.getConteudosInscritos());
+        System.out.println("Conteúdos disponíveis: " + devClegivaldo.getConteudosInscritos());
+
+        devClegivaldo.progredir();
+        devClegivaldo.progredir();
+
+        System.out.println("*-*");
+        System.out.println("Conteúdos disponíveis Clegivaldo: " + devClegivaldo.getConteudosInscritos());
+        System.out.println("Conteúdos concluídos Clegivaldo: " + devClegivaldo.getConteudosConcluidos());
+        System.out.println("XP:" + devClegivaldo.calcularxp());
+
+        System.out.println("*----------------------*");
 
 
         Dev devJulia = new Dev();
         devJulia.setNome("Júlia");
         devJulia.inscreverBootcamp(bootcamp);
-        System.out.println("Conteúdos disponíveis:" + devJulia.getConteudosInscritos());
+        System.out.println("Conteúdos disponíveis: " + devJulia.getConteudosInscritos());
+
+        devJulia.progredir();
+        devJulia.progredir();
+        devJulia.progredir();
+
+        System.out.println("*-*");
+        System.out.println("Conteúdos disponíveis Júlia: " + devJulia.getConteudosInscritos());
+        System.out.println("Conteúdos concluídos Júlia: " + devJulia.getConteudosConcluidos());
+        System.out.println("XP:" + devJulia.calcularxp());
+
     }
 }
